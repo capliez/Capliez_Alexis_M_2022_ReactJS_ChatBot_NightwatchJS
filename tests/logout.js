@@ -7,6 +7,7 @@ module.exports = {
         .click('button[name=btnLogout]')
         .pause(1000)
         .assert.containsText('h1', 'Connexion')
+        .assert.urlEquals(`${browser.launch_url}`)
         .end();
   }
 };

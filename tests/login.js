@@ -1,7 +1,7 @@
 
 const LoginTest = function (browser) {
   browser
-    .url('http://localhost:3000/')
+    .url(`${browser.launch_url}`)
     .waitForElementVisible('body', 1000)
     .setValue('input[type=text]', 'Jean')
     .click('button[name=btnLogin]')
