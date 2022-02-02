@@ -1,5 +1,12 @@
 # ChatBot ReactJS Redux With NightWatch JS
 
+### Les4Devs Group
+
+- RATIVEAU Corentin
+- GOMEZ Gabriel
+- GUERREAU Timothée
+- CAPLIEZ Alexis
+
 ### Objectives
 
 Realization of a Chat Bot type application using Material UI, Local Storage, Redux and React.js. By integrating tests with NightWatch.JS
