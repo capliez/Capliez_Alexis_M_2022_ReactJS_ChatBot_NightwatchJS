@@ -22,3 +22,10 @@ Step to install:
 ### How to use the application
 
 Enter your pseudo to access the chatbot
+
+### How to use testing
+
+Acceptance booklet : `https://docs.google.com/spreadsheets/d/17vyOj4vOztPxsvjrIv5Ss4-_yXyPCqT7dU3WU5RPHBE/edit?usp=sharing`
+tag = [login, loginError, logout, addMessage]
+
+1. `npx nightwatch --tag :tag -e chrome`
