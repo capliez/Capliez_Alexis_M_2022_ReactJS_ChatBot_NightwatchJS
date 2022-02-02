@@ -1,6 +1,6 @@
 const LoginTest = require('./login')
-
 module.exports = {
+  '@tags': ['logout'],
   'Login Application': LoginTest.Login,
   'Logout' :  function (browser) {    
         browser
